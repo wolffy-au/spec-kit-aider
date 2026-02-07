@@ -48,6 +48,7 @@ Specify supports multiple AI agents by generating agent-specific command files a
 | **Amp**                    | `.agents/commands/`    | Markdown | `amp`           | Amp CLI                     |
 | **SHAI**                   | `.shai/commands/`      | Markdown | `shai`          | SHAI CLI                    |
 | **IBM Bob**                | `.bob/commands/`       | Markdown | N/A (IDE-based) | IBM Bob IDE                 |
+| **Aider**                  | `.aider/commands/`     | Markdown | `aider`         | Aider CLI                   |
 
 ### Step-by-Step Integration Guide
 
@@ -316,6 +317,7 @@ Require a command-line tool to be installed:
 - **Qoder CLI**: `qoder` CLI
 - **Amp**: `amp` CLI
 - **SHAI**: `shai` CLI
+- **Aider CLI**: `aider` CLI
 
 ### IDE-Based Agents
 

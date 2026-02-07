@@ -44,3 +44,6 @@ env/
 .genreleases/
 *.zip
 sdd-*/
+
+.python-version
+.aider.*

@@ -585,98 +585,104 @@ class CommandRegistrar:
             "dir": ".claude/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "gemini": {
             "dir": ".gemini/commands",
             "format": "toml",
             "args": "{{args}}",
-            "extension": ".toml"
+            "extension": ".toml",
         },
         "copilot": {
             "dir": ".github/agents",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "cursor": {
             "dir": ".cursor/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "qwen": {
             "dir": ".qwen/commands",
             "format": "toml",
             "args": "{{args}}",
-            "extension": ".toml"
+            "extension": ".toml",
         },
         "opencode": {
             "dir": ".opencode/command",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "windsurf": {
             "dir": ".windsurf/workflows",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "kilocode": {
             "dir": ".kilocode/rules",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "auggie": {
             "dir": ".augment/rules",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "roo": {
             "dir": ".roo/rules",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "codebuddy": {
             "dir": ".codebuddy/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "qoder": {
             "dir": ".qoder/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "q": {
             "dir": ".amazonq/prompts",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "amp": {
             "dir": ".agents/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "shai": {
             "dir": ".shai/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
+            "extension": ".md",
         },
         "bob": {
             "dir": ".bob/commands",
             "format": "markdown",
             "args": "$ARGUMENTS",
-            "extension": ".md"
-        }
+            "extension": ".md",
+        },
+        "aider": {
+            "dir": ".aider/commands",
+            "format": "markdown",
+            "args": "$ARGUMENTS",
+            "extension": ".md",
+        },
     }
 
     @staticmethod
@@ -1781,5 +1787,3 @@ class HookExecutor:
                     hook["enabled"] = False
 
         self.save_project_config(config)
-
-
